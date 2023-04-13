@@ -1,0 +1,107 @@
+body {
+    font-family: Poppins;
+}
+/* Header */
+header {
+    background: linear-gradient(180deg, rgba(148, 153, 221, 0.1) 0%, rgba(0, 16, 255, 0.1) 100%);
+}
+
+.header-nobg {
+    background: transparent !important;
+}
+/* Main */
+
+/* Footer */
+footer {
+    background: #EFF0F8;
+}
+
+#footerBanner {
+    margin-bottom: -150px;
+}
+
+#footer {
+    padding-top: 150px;
+}
+
+/* Home Page */
+.img-logo {
+    width: 120px;
+}
+
+.testiimonial .card {
+    background: linear-gradient(180deg, rgba(182, 186, 255, 0.2) 0%, rgba(35, 46, 209, 0.2) 100%);
+    border-radius: 12px;
+}
+
+table {
+    table-layout: fixed; 
+    width: 100%
+}
+  
+td {
+word-wrap: break-word;
+}
+
+.column-1 {
+    width: 40px;
+}
+
+.column-2 {
+    width: auto;
+}
+
+#card1.cardWhyChooseUs, #card2.cardWhyChooseUs {
+    background: linear-gradient(180deg, rgba(182, 186, 255, 0.2) 0%, rgba(35, 46, 209, 0.2) 100%);
+}
+
+#card3.cardWhyChooseUs, #card4.cardWhyChooseUs  {
+    background: linear-gradient(180deg, rgba(255, 217, 208, 0.2) 0%, rgba(242, 76, 39, 0.2) 100%);
+}
+
+#card2.cardWhyChooseUs, #card4.cardWhyChooseUs  {
+    margin-top: -30px;
+}
+
+.cardWhyChooseUs i {
+    font-size: 400%;
+}
+
+.thumbnail-blue {
+    background: linear-gradient(180deg, rgba(148, 153, 221, 0.2) 0%, rgba(0, 16, 255, 0.2) 100%);
+    border-radius: 31px 31px 0px 31px;
+}
+
+.thumbnail-red {
+    background: linear-gradient(180deg, rgba(255, 204, 192, 0.3) 0%, rgba(242, 76, 39, 0.3) 100%);
+    border-radius: 31px 31px 0px 31px;
+}
+
+img.customer {
+    width: 75px;
+    height: 75px;
+}
+
+/* Product Page */
+.iconThreeSection {
+    width: 100px;
+    height: 100px;
+}
+
+/* Pricing Page */
+#headerPricing {
+    padding-bottom: 300px;
+}
+
+#pricing {
+    margin-top: -300px;
+}
+
+#cardPricing {
+    background: linear-gradient(180deg, #FFFFFF 52.08%, #ECEDFF 100%);
+}
+
+#cardPricingHot {
+    background: linear-gradient(180deg, #FFFFFF 52.6%, #FFE8E2 100%);
+}
+
