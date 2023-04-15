@@ -44,12 +44,10 @@ include("./common/document_head.html");
         <div class="container">
             <!--Start Three Section-->
             <div class="row my-5">
-                <div class="d-flex justify-content-center">
-                    <h4 class="col-lg-9 fw-bold">Get the best out of your customer support with Finsweet</h4>
-                </div>
+                <h2 class="col-lg-6 fw-bold">Get the best out of your customer support with Finsweet</h2>
                 <section class="d-flex flex-wrap align-items-center justify-content-center testiimonial">
                     <!--Section 1-->
-                    <div class="col-lg-3 m-2">
+                    <div class="col-lg-4">
                         <div class="d-flex flex-column">
                             <img class="iconThreeSection my-4" src="img/logo/iconAnalytics.jpg" alt="Analytics">
                             <p class="fw-bold mx-3">Analytics</p>
@@ -57,7 +55,7 @@ include("./common/document_head.html");
                         </div>
                     </div>
                     <!--Section 2-->
-                    <div class="col-lg-3 m-2">
+                    <div class="col-lg-4">
                         <div class="d-flex flex-column">
                             <img class="iconThreeSection my-4" src="img/logo/iconBestQuality.jpg" alt="Best Quality">
                             <p class="fw-bold mx-3">Best Quality</p>
@@ -65,7 +63,7 @@ include("./common/document_head.html");
                         </div>
                     </div>
                     <!--Section 3-->
-                    <div class="col-lg-3 m-2">
+                    <div class="col-lg-4">
                         <div class="d-flex flex-column">
                             <img class="iconThreeSection my-4" src="img/logo/iconMoreClicks.jpg" alt="More Clicks">
                             <p class="fw-bold mx-3">More Clicks</p>
@@ -78,13 +76,13 @@ include("./common/document_head.html");
 
             <!--Start Feature Section-->
                 <!--Start Feature 1-->
-                <div class="my-5 d-flex justify-content-around flex-wrap">
+                <div class="my-5 d-flex justify-content-between flex-wrap">
                     <!--Feature 1 Img-->
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 my-2">
                         <img src="img/feature1-1.jpg" class="img-thumbnail thumbnail-blue p-5" alt="feature1">
                     </div>
                     <!--Feature 1 Text-->
-                    <div class="col-lg-4 align-self-center">
+                    <div class="col-lg-5 align-self-center my-2">
                         <p class="text-primary fw-bold">Features</p>
                         <h3 class="display-6 fw-bold">Work from Anywhere</h3>
                         <p class="fw-normal">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut nec turpis tristique, egestas lacus at, cursus arcu</p>
@@ -93,9 +91,9 @@ include("./common/document_head.html");
                 <!--End Feature 1-->
 
                 <!--Start Feature 2-->
-                <div class="my-5 d-flex justify-content-around flex-wrap">
+                <div class="my-5 d-flex justify-content-between flex-wrap">
                     <!--Feature 2 Text-->
-                    <div class="col-lg-4 align-self-center">
+                    <div class="col-lg-5 align-self-center my-2">
                         <p class="text-primary fw-bold">Features</p>
                         <h3 class="display-6 fw-bold">Chat live with the Support Team</h3>
                         <p class="fw-normal">Lobilia curae ut nec turpis tristique, egestas lacus at, cursus arcu</p>
@@ -105,20 +103,20 @@ include("./common/document_head.html");
                         </ul>
                     </div>
                     <!--Feature 2 Img-->
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 my-2">
                         <img src="img/feature2-1.jpg" class="img-thumbnail thumbnail-red p-5" alt="feature2">
                     </div>
                 </div>
                 <!--End Feature 2-->
 
                 <!--Start Feature 3-->
-                <div class="my-5 d-flex justify-content-around flex-wrap">
+                <div class="my-5 d-flex justify-content-between flex-wrap">
                     <!--Feature 3 Img-->
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 my-2">
                         <img src="img/feature3-1.jpg" class="img-thumbnail thumbnail-blue p-5" alt="feature3">
                     </div>
                     <!--Feature 3 Text-->
-                    <div class="col-lg-4 align-self-center">
+                    <div class="col-lg-5 align-self-center my-2">
                         <p class="text-primary fw-bold">Features</p>
                         <h3 class="display-6 fw-bold">Analytics at your fingertips</h3>
                         <p class="fw-normal">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut nec turpis tristique, egestas lacus at, cursus arcu</p>
@@ -128,16 +126,16 @@ include("./common/document_head.html");
                 <!--End Feature 3-->
 
                 <!--Start Feature 4-->
-                <div class="my-5 d-flex justify-content-around flex-wrap">
+                <div class="my-5 d-flex justify-content-between flex-wrap">
                     <!--Feature 4 Text-->
-                    <div class="col-lg-4 align-self-center">
+                    <div class="col-lg-5 align-self-center my-2">
                         <p class="text-primary fw-bold">Features</p>
                         <h3 class="display-6 fw-bold">Stay connected with your customers </h3>
                         <p class="fw-normal">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut nec turpis tristique, egestas lacus at, cursus arcu</p>
                         <a class="text-black fw-bold link-offset-2 link-underline link-underline-opacity-0" href="pricing.php">Learn More<i class="bi bi-arrow-right px-2 fw-bold"></i></a>
                     </div>
                     <!--Feature 4 Img-->
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 my-2">
                         <div class="img-thumbnail p-5 thumbnail-red d-flex justify-content-center">
                             <ul class="list-group" style="width: 85%;">
                                 <li class="list-group-item border-0">
@@ -175,9 +173,9 @@ include("./common/document_head.html");
                 <!--End Feature 4-->
 
                 <!--Start Feature 5-->
-                <div class="my-5 d-flex justify-content-around flex-wrap">
+                <div class="my-5 d-flex justify-content-between flex-wrap">
                     <!--Feature 5 Img-->
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 my-2">
                         <div class="img-thumbnail p-5 thumbnail-blue d-flex flex-wrap justify-content-center">
                              <div class="card mb-3" style="width: 85%;">
                                 <div class="d-flex align-items-center g-0 p-3">
@@ -186,7 +184,7 @@ include("./common/document_head.html");
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
-                                            <h5 class="card-title fw-bold">90 underperforming users</h5>
+                                            <h5 class="card-title fw-bold">90 under performing users</h5>
                                             <p class="card-text"><small class="text-body-secondary">14% more than last year</small></p>
                                         </div>
                                     </div>
@@ -208,7 +206,7 @@ include("./common/document_head.html");
                         </div>
                     </div>
                     <!--Feature 5 Text-->
-                    <div class="col-lg-4 align-self-center">
+                    <div class="col-lg-5 align-self-center my-2">
                         <p class="text-primary fw-bold">Features</p>
                         <h3 class="display-6 fw-bold">Stay up to date with live alerts</h3>
                         <p class="fw-normal">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut nec turpis tristique, egestas lacus at, cursus arcu</p>
@@ -221,7 +219,7 @@ include("./common/document_head.html");
             <!--Start Happy Section-->
             <div class="row my-5">
                 <figure class="d-flex justify-content-center">
-                    <div class="col-lg-9 position-relative">
+                    <div class="col position-relative">
                         <img src="img/happy.jpg" alt="Happy" style="width: 100%;">
                         <figcaption class="bg bg-danger rounded text-white p-3 position-absolute bottom-0 end-0">
                             <h4>You + Finsweet = Happy Customers</h4>

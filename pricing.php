@@ -33,11 +33,11 @@ include("./common/document_head.html");
     <!--Start Body-->
     <main class="main">
         <div class="container">
-            <!--Start Pricing Section-->
-            <section class="row" id="pricing">
-                <div class="d-flex flex-wrap justify-content-center">
+             <!--Start Pricing Section-->
+             <div class="row row-cols-1 row-cols-md-3 g-4" id="pricing">
+                <div class="col">
                     <!--Pricing Card 1-->
-                    <div class="col-lg-3 m-3 p-5" id="cardPricing">
+                    <div class="card border-0 p-5" id="cardPricing">
                         <div class="d-flex flex-column flex-wrap">
                             <h2 class="fw-bold">Launch</h2>
                             <h2 class="fw-bold">$<strong class="fs-1">19</strong>/mo</h2>
@@ -52,9 +52,11 @@ include("./common/document_head.html");
                             <button type="button" class="btn btn-outline-primary btn-lg">Get Started</button>
                         </div>
                     </div>
-                    <!--Pricing Card 2-->
-                    <div class="col-lg-3 m-3 p-5" id="cardPricingHot">
-                        <div class="d-flex flex-column flex-wrap">
+                </div>
+                <!--Pricing Card 2-->
+                <div class="col">
+                    <div class="card border-0 p-5" id="cardPricingHot">
+                       <div class="d-flex flex-column flex-wrap">
                             <h2 class="fw-bold">Startup</h2>
                             <h2 class="fw-bold">$<strong class="fs-1">49</strong>/mo</h2>
                             <p class="">Integer proin ac, lectus proin egestas ultricies.</p>
@@ -66,10 +68,12 @@ include("./common/document_head.html");
                                 <li class="list-item my-2 invisible"><i class="bi bi-check-lg me-2 text-danger fw-bold fs-5"></i>Text Here</li>
                             </ul>
                             <button type="button" class="btn btn-danger btn-lg">Get Started</button>
-                        </div>
+                        </div> 
                     </div>
-                    <!--Pricing Card 3-->
-                    <div class="col-lg-3 m-3 p-5" id="cardPricing">
+                </div>
+                <!--Pricing Card 3-->
+                <div class="col">
+                    <div class="card border-0 p-5" id="cardPricing">
                         <div class="d-flex flex-column">
                             <h2 class="fw-bold">Growth</h2>
                             <h2 class="fw-bold">$<strong class="fs-1">79</strong>/mo</h2>
@@ -85,7 +89,7 @@ include("./common/document_head.html");
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
             <!--End Pricing Section-->
             
             <!--Start FAQ Section-->
@@ -101,7 +105,7 @@ include("./common/document_head.html");
                                         <th class="column-2"></th>
                                       </tr>
                                     <tr>
-                                        <td class="text-primary fw-bold">01</td>
+                                        <td class="text-secondary fw-bold">01</td>
                                         <td class="fw-bold"><a class="link-underline link-underline-opacity-0 text-black" data-bs-toggle="collapse" href="#collapse1" aria-expanded="false" aria-controls="collapse1">Maecenas efficitur scelerisque lorem?</a></td>
                                     </tr>
                                     <tr>
@@ -183,74 +187,82 @@ include("./common/document_head.html");
             <!--Start Testiimonials Section-->
             <div class="row my-5">
                 <div class="d-flex justify-content-center">
-                    <h1 class="col-lg-9 display-5 fw-bold">Customer Testimonials</h1>
+                    <h1 class="col display-5 fw-bold">Customer Testimonials</h1>
                 </div>
-                <article class="d-flex flex-wrap align-items-center justify-content-center testiimonial">
-                    <!--Testiimonial 1-->
-                    <div class="card col-lg-3 m-2">
-                        <div class="card-header mt-4 border-0 d-flex flex-wrap">
-                            <img class="align-self-center rounded-circle" src="img/user-comment1.jpg" width="70" height="70">
-                            <div class="">
-                                <p class="fw-bold mx-3">Breanna Parker</p>
-                                <div class="d-flex flex-wrap align-items-center justify-content-center">
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-half text-danger"></i>
+                <article class="testiimonial">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <!--Testiimonial 1-->
+                        <div class="col">
+                            <div class="card">
+                                <div class="mt-4 ms-3 border-0 d-flex flex-wrap">
+                                    <img class="align-self-center rounded-circle" src="img/user-comment1.jpg" width="70" height="70">
+                                    <div class="">
+                                        <p class="fw-bold mx-3">Breanna Parker</p>
+                                        <div class="d-flex flex-wrap align-items-center justify-content-center">
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-half text-danger"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body ">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p class="bold">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut ornare gravida tempor. Nunc tristique libero eget nulla.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="card-body ">
-                            <div class="row">
-                                <div class="col">
-                                    <p class="bold">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut ornare gravida tempor. Nunc tristique libero eget nulla.</p>
+                        <!--Testiimonial 2-->
+                        <div class="col">
+                            <div class="card">
+                                <div class="mt-4 ms-3 border-0 d-flex flex-wrap">
+                                    <img class="align-self-center rounded-circle" src="img/user-comment2.jpg" width="70" height="70">
+                                    <div class="">
+                                        <p class="fw-bold mx-3">Ana Oleynkova</p>
+                                        <div class="d-flex flex-wrap align-items-center justify-content-center">
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-half text-danger"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body ">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p class="bold">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla in viverra leo. Vestibulum eleifend dictum.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <!--Testiimonial 2-->
-                    <div class="card col-lg-3 m-2">
-                        <div class="card-header mt-4 border-0 d-flex flex-wrap">
-                            <img class="align-self-center rounded-circle" src="img/user-comment2.jpg" width="70" height="70">
-                            <div class="">
-                                <p class="fw-bold mx-3">Ana Oleynkova</p>
-                                <div class="d-flex flex-wrap align-items-center justify-content-center">
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-half text-danger"></i>
+                        <!--Testiimonial 3-->
+                        <div class="col">
+                            <div class="card">
+                                <div class="mt-4 ms-3 border-0 d-flex flex-wrap">
+                                    <img class="align-self-center rounded-circle" src="img/user-comment3.jpg" width="70" height="70">
+                                    <div class="">
+                                        <p class="fw-bold mx-3">Andy Smith</p>
+                                        <div class="d-flex flex-wrap align-items-center justify-content-center">
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-half text-danger"></i>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="card-body ">
-                            <div class="row">
-                                <div class="col">
-                                    <p class="bold">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla in viverra leo. Vestibulum eleifend dictum.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Testiimonial 3-->
-                    <div class="card col-lg-3 m-2">
-                        <div class="card-header mt-4 border-0 d-flex flex-wrap">
-                            <img class="align-self-center rounded-circle" src="img/user-comment3.jpg" width="70" height="70">
-                            <div class="">
-                                <p class="fw-bold mx-3">Andy Smith</p>
-                                <div class="d-flex flex-wrap align-items-center justify-content-center">
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-half text-danger"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body ">
-                            <div class="row">
-                                <div class="col">
-                                    <p class="bold">Curabitur sed tincidunt dui. Suspendisse dignissim consequat enim eu feugiat. Suspendisse vehicula sem non enim tristique, in rhoncus nulla.</p>
+                                <div class="card-body ">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p class="bold">Curabitur sed tincidunt dui. Suspendisse dignissim consequat enim eu feugiat. Suspendisse vehicula sem non enim tristique, in rhoncus nulla.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

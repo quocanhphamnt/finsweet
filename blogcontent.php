@@ -15,7 +15,7 @@ include("./common/document_head.html");
             <!--End Navbar-->
 
             <!--Start Header content-->
-            <div class="my-5 pb-5 d-flex justify-content-around flex-wrap">
+            <div class="my-5 pb-5 d-flex justify-content-between flex-wrap">
                 <!-- Content -->
                 <div class="header-content col-lg-5">
                     <div class="d-flex flex-column">

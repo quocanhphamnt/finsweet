@@ -43,7 +43,7 @@ include("./common/document_head.html");
             <div class="row mt-5 text-center">
                 <p class="fw-normal">10,000+ clients who are getting more replies</p>
             </div>
-            <div class="mb-5 d-flex justify-content-around flex-wrap">
+            <div class="mb-5 mt-2 d-flex justify-content-around flex-wrap">
                 <div class="p-2">
                     <img src="img/logo/logo1.jpg" class="img-logo" alt="logo1">
                 </div>
@@ -63,15 +63,15 @@ include("./common/document_head.html");
             <!--End Logo Section-->
 
             <!--Start Why Section-->
-            <div class="my-5 d-flex justify-content-around flex-wrap">
+            <div class="my-5 d-flex justify-content-center flex-wrap">
                 <!--Why Left-->
-                <div class="col-lg-4 align-self-center">
+                <div class="col-12 col-md-4 align-self-center mx-5">
                     <p class="text-primary fw-bold">Why Choose Us?</p>
                     <h3 class="display-6 fw-bold">Premium features for competitive price</h3>
                     <p class="fw-normal">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut nec turpis tristique, egestas lacus at, cursus arcu</p>
                 </div>
                 <!--Why Right-->
-                <div class="col-lg-6">
+                <div class="col-12 col-md-5 mx-5 my-5">
                     <div class="row row-cols-2 g-4">
                         <div class="col">
                             <div class="card border-0 py-2 px-3 cardWhyChooseUs" id="card1">
@@ -118,28 +118,30 @@ include("./common/document_head.html");
                 </div>
             </div>
             <!--End Why Section-->
+        </div>
 
             <!--Start Image Section-->
-            <figure class="figure my-5">
+            <figure class="d-flex flex-column flex-wrap my-5">
                 <img src="img/ImageSection.jpg" class="figure-img img-fluid" alt="ImageSection">
-                <figcaption class="figure-caption grid position-relative">
-                    <div class="col-lg-9 col-md-12 text-white bg-primary d-inline-flex align-items-center justify-content-center position-absolute bottom-0 end-0 p-4">
-                        <h1 class="">Keeps Your Team Happy</h1>
-                        <p class="">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut nec turpis tristique, egestas lacus at, cursus arcu. Vestibulum ante ipsum primis in.</p>
+                <figcaption class="position-relative">
+                    <div class="col-lg-7 col-md-12 text-white bg-primary rounded d-flex flex-wrap align-items-center justify-content-start position-absolute bottom-0 end-0 p-4">
+                        <h1 class="col-lg-4">Keeps Your Team Happy</h1>
+                        <p class="col-lg-6">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut nec turpis tristique, egestas lacus at, cursus arcu. Vestibulum ante ipsum primis in.</p>
                     </div>
                 </figcaption>
             </figure>
             <!--End Image Section-->
 
+        <div class="container">
             <!--Start Feature Section-->
                 <!--Start Feature 3-->
-                <div class="my-5 d-flex justify-content-around flex-wrap">
+                <div class="my-5 d-flex justify-content-between flex-wrap">
                     <!--Feature 3 Img-->
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 my-2">
                         <img src="img/feature3-1.jpg" class="img-thumbnail thumbnail-blue p-5" alt="feature3">
                     </div>
                     <!--Feature 3 Text-->
-                    <div class="col-lg-4 align-self-center">
+                    <div class="col-lg-5 align-self-center my-2">
                         <p class="text-primary fw-bold">Features</p>
                         <h3 class="display-6 fw-bold">Analytics at your fingertips</h3>
                         <p class="fw-normal">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut nec turpis tristique, egestas lacus at, cursus arcu</p>
@@ -149,16 +151,16 @@ include("./common/document_head.html");
                 <!--End Feature 3-->
 
                 <!--Start Feature 4-->
-                <div class="my-5 d-flex justify-content-around flex-wrap">
+                <div class="my-5 d-flex justify-content-between flex-wrap">
                     <!--Feature 4 Text-->
-                    <div class="col-lg-4 align-self-center">
+                    <div class="col-lg-5 align-self-center my-2">
                         <p class="text-primary fw-bold">Features</p>
                         <h3 class="display-6 fw-bold">Stay connected with your customers </h3>
                         <p class="fw-normal">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut nec turpis tristique, egestas lacus at, cursus arcu</p>
                         <a class="text-black fw-bold link-offset-2 link-underline link-underline-opacity-0" href="pricing.php">Learn More<i class="bi bi-arrow-right px-2 fw-bold"></i></a>
                     </div>
                     <!--Feature 4 Img-->
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 my-2">
                         <div class="img-thumbnail p-5 thumbnail-red d-flex justify-content-center">
                             <ul class="list-group" style="width: 85%;">
                                 <li class="list-group-item border-0">
@@ -196,9 +198,9 @@ include("./common/document_head.html");
                 <!--End Feature 4-->
 
                 <!--Start Feature 5-->
-                <div class="my-5 d-flex justify-content-around flex-wrap">
+                <div class="my-5 d-flex justify-content-between flex-wrap">
                     <!--Feature 5 Img-->
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 my-2">
                         <div class="img-thumbnail p-5 thumbnail-blue d-flex flex-wrap justify-content-center">
                              <div class="card mb-3" style="width: 85%;">
                                 <div class="d-flex align-items-center g-0 p-3">
@@ -207,7 +209,7 @@ include("./common/document_head.html");
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
-                                            <h5 class="card-title fw-bold">90 underperforming users</h5>
+                                            <h5 class="card-title fw-bold">90 under performing users</h5>
                                             <p class="card-text"><small class="text-body-secondary">14% more than last year</small></p>
                                         </div>
                                     </div>
@@ -229,7 +231,7 @@ include("./common/document_head.html");
                         </div>
                     </div>
                     <!--Feature 5 Text-->
-                    <div class="col-lg-4 align-self-center">
+                    <div class="col-lg-5 align-self-center my-2">
                         <p class="text-primary fw-bold">Features</p>
                         <h3 class="display-6 fw-bold">Stay up to date with live alerts</h3>
                         <p class="fw-normal">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut nec turpis tristique, egestas lacus at, cursus arcu</p>
@@ -242,74 +244,82 @@ include("./common/document_head.html");
             <!--Start Testiimonials Section-->
             <div class="row my-5">
                 <div class="d-flex justify-content-center">
-                    <h1 class="col-lg-9 display-5 fw-bold">Customer Testimonials</h1>
+                    <h1 class="col display-5 fw-bold">Customer Testimonials</h1>
                 </div>
-                <article class="d-flex flex-wrap align-items-center justify-content-center testiimonial">
-                    <!--Testiimonial 1-->
-                    <div class="card col-lg-3 m-2">
-                        <div class="card-header mt-4 border-0 d-flex flex-wrap">
-                            <img class="align-self-center rounded-circle" src="img/user-comment1.jpg" width="70" height="70">
-                            <div class="">
-                                <p class="fw-bold mx-3">Breanna Parker</p>
-                                <div class="d-flex flex-wrap align-items-center justify-content-center">
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-half text-danger"></i>
+                <article class="testiimonial">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <!--Testiimonial 1-->
+                        <div class="col">
+                            <div class="card">
+                                <div class="mt-4 ms-3 border-0 d-flex flex-wrap">
+                                    <img class="align-self-center rounded-circle" src="img/user-comment1.jpg" width="70" height="70">
+                                    <div class="">
+                                        <p class="fw-bold mx-3">Breanna Parker</p>
+                                        <div class="d-flex flex-wrap align-items-center justify-content-center">
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-half text-danger"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body ">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p class="bold">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut ornare gravida tempor. Nunc tristique libero eget nulla.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="card-body ">
-                            <div class="row">
-                                <div class="col">
-                                    <p class="bold">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut ornare gravida tempor. Nunc tristique libero eget nulla.</p>
+                        <!--Testiimonial 2-->
+                        <div class="col">
+                            <div class="card">
+                                <div class="mt-4 ms-3 border-0 d-flex flex-wrap">
+                                    <img class="align-self-center rounded-circle" src="img/user-comment2.jpg" width="70" height="70">
+                                    <div class="">
+                                        <p class="fw-bold mx-3">Ana Oleynkova</p>
+                                        <div class="d-flex flex-wrap align-items-center justify-content-center">
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-half text-danger"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body ">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p class="bold">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla in viverra leo. Vestibulum eleifend dictum.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <!--Testiimonial 2-->
-                    <div class="card col-lg-3 m-2">
-                        <div class="card-header mt-4 border-0 d-flex flex-wrap">
-                            <img class="align-self-center rounded-circle" src="img/user-comment2.jpg" width="70" height="70">
-                            <div class="">
-                                <p class="fw-bold mx-3">Ana Oleynkova</p>
-                                <div class="d-flex flex-wrap align-items-center justify-content-center">
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-half text-danger"></i>
+                        <!--Testiimonial 3-->
+                        <div class="col">
+                            <div class="card">
+                                <div class="mt-4 ms-3 border-0 d-flex flex-wrap">
+                                    <img class="align-self-center rounded-circle" src="img/user-comment3.jpg" width="70" height="70">
+                                    <div class="">
+                                        <p class="fw-bold mx-3">Andy Smith</p>
+                                        <div class="d-flex flex-wrap align-items-center justify-content-center">
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-fill text-danger"></i>
+                                            <i class="bi bi-star-half text-danger"></i>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="card-body ">
-                            <div class="row">
-                                <div class="col">
-                                    <p class="bold">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla in viverra leo. Vestibulum eleifend dictum.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Testiimonial 3-->
-                    <div class="card col-lg-3 m-2">
-                        <div class="card-header mt-4 border-0 d-flex flex-wrap">
-                            <img class="align-self-center rounded-circle" src="img/user-comment3.jpg" width="70" height="70">
-                            <div class="">
-                                <p class="fw-bold mx-3">Andy Smith</p>
-                                <div class="d-flex flex-wrap align-items-center justify-content-center">
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-fill text-danger"></i>
-                                    <i class="bi bi-star-half text-danger"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body ">
-                            <div class="row">
-                                <div class="col">
-                                    <p class="bold">Curabitur sed tincidunt dui. Suspendisse dignissim consequat enim eu feugiat. Suspendisse vehicula sem non enim tristique, in rhoncus nulla.</p>
+                                <div class="card-body ">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p class="bold">Curabitur sed tincidunt dui. Suspendisse dignissim consequat enim eu feugiat. Suspendisse vehicula sem non enim tristique, in rhoncus nulla.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -331,7 +341,7 @@ include("./common/document_head.html");
                                         <th class="column-2"></th>
                                       </tr>
                                     <tr>
-                                        <td class="text-primary fw-bold">01</td>
+                                        <td class="text-secondary fw-bold number">01</td>
                                         <td class="fw-bold"><a class="link-underline link-underline-opacity-0 text-black" data-bs-toggle="collapse" href="#collapse1" aria-expanded="false" aria-controls="collapse1">Maecenas efficitur scelerisque lorem?</a></td>
                                     </tr>
                                     <tr>
